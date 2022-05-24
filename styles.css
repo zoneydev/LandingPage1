@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.body {
+ 
+}
+
+.headerbg {
+    background-color: rgb(29, 22, 22);
+    color: whitesmoke;
+    height: 400px;
+}
+
+.header-hero {
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.header {
+    display: flex
+}
+
+.logo {
+    flex: 1;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.hero{
+    display:flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+
+h1{
+margin-bottom: 0;
+}
+
+p{
+margin-top: 10px;
+font-size: 16px
+}
+
+button{
+background-color: darkred;
+border-style: none;
+border-radius: 5px;
+color: white;
+font-weight: bolder;
+font-size: 12px;
+width: 125px;
+}
+
+.herotext{
+    display:flex;
+    flex-direction: column;
+}
+
+.heroimage{
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 70px;
+}
+
+.secondbg{
+    background-image: url("images/tronbg.avif");
+    color: whitesmoke;
+    height: 325px;
+    
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+}
+
+.undertext {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 28px;
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+}
+
+.box3{
+    width: 100px;
+    height: 100px;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+}
+
+.box4{
+    width: 100px;
+    height: 100px;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+}
+
+.third{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.thirdbg{
+    display: flex;
+    background-color: rgb(187, 173, 173);
+    height: 300px;
+    align-items: center;
+}
+
+.quote {
+    flex: 1;
+    font-style: italic;
+    margin-top: 70px;
+}
+
+h3{
+    font-weight: normal;
+}
+
+.byzoney{
+    display: flex;
+    font-weight: bold;
+    justify-content: flex-end;
+}
+
+.fourthbg{
+    background-image: url("images/tronbg2.avif");
+    height: 300px;
+    color: whitesmoke;
+}
+
+.fourth{
+    display: flex; 
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.signupbox{
+    display:flex;
+    width: 800px;
+    margin: 70px;
+    padding: 25px;
+    background-color: rgb(43, 0, 0);
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.footerbg{
+    background-color: rgb(29, 22, 22);
+    color: whitesmoke;
+    display:flex;    
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
